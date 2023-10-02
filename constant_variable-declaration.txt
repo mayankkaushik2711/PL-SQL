@@ -1,0 +1,12 @@
+set serveroutput on;
+DECLARE
+
+pi CONSTANT DOUBLE PRECISION := 3.1413;
+INT INTEGER:=7;
+
+BEGIN
+
+dbms_output.put_line(pi);
+dbms_output.put_line(int);
+
+END;

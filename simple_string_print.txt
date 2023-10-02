@@ -1,0 +1,9 @@
+DECLARE
+    
+first varchar2(30):='Hello';
+second varchar2(30):='World!';
+
+BEGIN
+dbms_output.put_line(first||'  '||second);
+
+END;

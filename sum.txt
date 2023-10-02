@@ -1,0 +1,11 @@
+set serveroutput on;
+DECLARE
+    first NUMBER := 20000;
+    second NUMBER := 1000000000000000;
+    v_sum NUMBER;
+
+BEGIN
+    v_sum := first + second; 
+    dbms_output.put_line(v_sum);
+END;
+/

@@ -1,0 +1,16 @@
+set serveroutput on;
+DECLARE
+
+SUBTYPE character1 IS varchar2(20);
+SUBTYPE character2 IS varchar2(20);
+FNAME character1;
+LNAME character2;
+
+BEGIN
+                                                              --FNAME==fname     case sensitive nahi hai
+FNAME:='MAYANK';
+lname:='kaushik';
+dbms_output.PUT_line('Hello'||Fname||' '||lname);
+
+END;
+
