@@ -18,7 +18,7 @@ SET SERVEROUTPUT ON;
 --
 
 --
-SELECT * FROM SYSTEM.employee;
+--SELECT * FROM SYSTEM.employee;
 
 
 
