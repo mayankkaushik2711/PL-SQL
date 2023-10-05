@@ -1,0 +1,25 @@
+SET SERVEROUTPUT ON;
+
+DECLARE 
+    A NUMBER;
+    B NUMBER;
+    C NUMBER;
+
+PROCEDURE BIGG(X IN  NUMBER , Y IN NUMBER , Z OUT NUMBER)
+IS 
+BEGIN
+    IF X>Y THEN
+    Z:=X;
+    ELSE
+    Z:=Y;
+    END IF;
+END;
+
+BEGIN
+    A:=3;
+    B:=4;
+    BIGG(A,B,C);
+    DBMS_OUTPUT.PUT_LINE(C);
+END;
+/
+
