@@ -1,0 +1,8 @@
+
+DECLARE 
+    A NUMBER;
+    B NUMBER;
+    C NUMBER;
+
+BEGIN
+    
