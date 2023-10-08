@@ -6,6 +6,7 @@ SET SERVEROUTPUT ON;
 --    v_name employee.first_name%type;
 --
 --
+--
 --BEGIN
 --
 --    SELECT first_name INTO v_name FROM employee WHERE salary=1000;
