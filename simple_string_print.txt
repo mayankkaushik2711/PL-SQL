@@ -9,4 +9,4 @@ dbms_output.put_line(first||'  '||second);
 END;
 
 //lalit max
-//dfghjk
+
